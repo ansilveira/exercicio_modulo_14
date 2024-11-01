@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Natação</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title tamanho-fonte">Natação</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-natacao" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a natação
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#quem-pratica" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Quem pratica
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destaques" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Destaques
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-natacao">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-md-5 pt-5">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="./imagens/foto_1.jpg" alt="Foto do espaço interno do restaurante">                        
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/foto_2.jpg" alt="Duas taças de vinho">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/foto_3.jpg" alt="Uma mesa com comida">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 md-5 pt-5">
+                        <h2 class="section-title">Sobre <span class="text-colored">a natação competitiva</span></h2>
+                        <p>
+                            A natação é uma prática antiga, com registros históricos datando de 7.000 anos atrás. A modalidade começou a se consolidar como esporte competitivo no final do século XIX. Em 1896, a natação masculina foi incluída nos primeiros Jogos Olímpicos da era moderna, realizados em Atenas. Já a competição feminina de natação estreou em 1912, nos Jogos de Estocolmo.
+                            O desenvolvimento das técnicas e regras foi impulsionado principalmente pela Federação Internacional de Natação (FINA), fundada em 1908, responsável por regulamentar o esporte até hoje.
+                        </p>
+                        <h3 class="section-title">Estilos <span class="text-colored">de nado</span></h3>
+                        <p>
+                            Existem quatro estilos principais na natação competitiva
+                        </p>
+                        <ul class="marcador">
+                            <li>Livre (Crawl): É o estilo mais rápido e popular, onde o nadador movimenta os braços alternadamente, enquanto as pernas fazem movimentos de batida. Os nadadores competem de bruços, mas podem usar qualquer técnica.</li>
+                            <li>Costas: O nadador realiza o movimento de costas, com o rosto voltado para cima e os braços girando alternadamente. As pernas também se movimentam em batidas para ajudar na propulsão.</li>
+                            <li>Peito: Este estilo é caracterizado pelo movimento simultâneo dos braços e das pernas. Os braços fazem uma extensão para frente enquanto as pernas realizam um movimento parecido com uma “sapoada”.</li>
+                            <li>Borboleta: O nadador movimenta os dois braços ao mesmo tempo em um movimento circular enquanto realiza a “ondulação” com o corpo e um movimento de batida de pernas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="quem-pratica" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as pessoas</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/foto_9.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-fill"></i>
+                            Crianças
+                        </h3>
+                        <p>
+                            A natação é uma das atividades físicas mais recomendadas para crianças, tanto pelo desenvolvimento físico quanto pelos benefícios psicológicos e de segurança.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/foto_8.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-fill"></i>
+                            Idosos
+                        </h3>
+                        <p>
+                            A natação é altamente recomendada para idosos, pois oferece benefícios físicos, mentais e sociais sem sobrecarregar as articulações.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/foto_12.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-wheelchair"></i>
+                            Deficientes
+                        </h3>
+                        <p>
+                            A natação é extremamente benéfica para pessoas com deficiência, oferecendo um ambiente seguro para o desenvolvimento físico, emocional e social. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="destaques" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nadadores <span class="text-colored">em destaque</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-destaques">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#masculino" class="fw-bold text-start nav-link text-colored active">Masculino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#feminino" class="fw-bold text-start nav-link text-colored">Feminino</button>                            
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="masculino">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/foto_13.jpg" alt="Cesar Cielo" />
+                                        <h5 class="text-colored fw-bold mt-2">Cesar Cielo</h5>
+                                        <p>
+                                            É um nadador brasileiro campeão olímpico. Foi ainda campeão mundial dos 100 metros livre em Roma 2009, e tricampeão mundial dos 50 metros livre em Roma 2009, Xangai 2011 e em Barcelona 2013, recordista mundial de ambas as provas. Atualmente o recorde mundial dos 50 metros livre é dele 20s91.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/foto_14.jpg" alt="Michael Phelps" />
+                                        <h5 class="text-colored fw-bold mt-2">Michael Phelps</h5>
+                                        <p>
+                                            É um ex-nadador estadunidense, conquistou trinta e sete recordes mundiais e conquistou o maior número de medalhas de ouro olímpicas (8) em uma única edição.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/foto_19.jpg" alt="Leon Marchand"/>
+                                        <h5 class="text-colored fw-bold mt-2">Leon Marchand</h5>
+                                        <p>
+                                            É um nadador francês especializado em natação nas modalidades peito, borboleta e medley
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/foto_20.jpg" alt="Caeleb Dressel" />
+                                        <h5 class="text-colored fw-bold mt-2">Caeleb Dressel</h5>
+                                        <p>
+                                            É um nadador dos Estados Unidos, medalhista olímpico e multi-medalhista em campeonatos mundiais.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="feminino">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/foto_17.jpg" alt="Etiene Medeiros"/>
+                                        <h5 class="text-colored fw-bold mt-2">Etiene Medeiros</h5>
+                                        <p>
+                                            É uma nadadora brasileira. Considerada a melhor nadadora da história do Brasil, foi a primeira mulher do país a conquistar uma medalha de ouro em um Campeonato Mundial de Natação (tanto o de piscina longa, quanto o de piscina curta) e em Jogos Pan-americanos. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/foto_16.jpg" alt="Kaulee McKeown" />
+                                        <h5 class="text-colored fw-bold mt-2">Kaulee McKeown</h5>
+                                        <p>
+                                            É uma nadadora australiana, campeã olímpica. McKeown conquistou a medalha de ouro nos Jogos Olímpicos de Verão de 2020 em Tóquio em três provas: 100 m costas, 200 m costas e revezamento 4×100 m medley.
+                                        </p>
+                                    </div>    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/foto_15.jpg" alt="Katie Ledecky" />
+                                        <h5 class="text-colored fw-bold mt-2">Katie Ledecky</h5>
+                                        <p>
+                                            É uma nadadora norte-americana. Ela ganhou sete medalhas de ouro olímpicas e 19 medalhas de ouro em campeonatos mundiais, a maior marca na história de uma nadadora. Ela é a atual detentora do recorde mundial no nado livre feminino de 400, 800 e 1500 metros (piscina longa).
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/foto_18.jpg" alt="Summer McIntosh" />
+                                        <h5 class="text-colored fw-bold mt-2">Summer McIntosh</h5>
+                                        <p>
+                                            É uma nadadora canadense. Ela é tricampeã Olímpica e tetracampeã do Campeonato Mundial de Esportes Aquáticos, especializada em natação nas modalidades livre, borboleta e medley.
+                                        </p>
+                                    </div>                               
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Nadar nº 9000, Bairro Piscina - Fortaleza - CE
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
